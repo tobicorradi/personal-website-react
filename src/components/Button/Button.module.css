@@ -1,0 +1,30 @@
+.button {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 14px 30px;
+}
+
+.primary {
+  color: white;
+  background-color: var(--color-primary);
+  border: 0;
+}
+
+.transparent {
+  border: 2px solid #d4d4d4;
+  background-color: transparent;
+}
+
+.withIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+@media (min-width: 992px) {
+  .button {
+    width: max-content;
+  }
+}

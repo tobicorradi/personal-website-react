@@ -1,4 +1,5 @@
-import { Chip, Text } from "@components";
+import { Button, Chip, Text } from "@components";
+import { MoveUpRight } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -14,6 +15,10 @@ export const Hero = () => {
         and Next.js. Focused on building high-performance web applications
         and component libraries.
       </Text>
+      <Button variant="primary">Contact</Button>
+      <Button icon={MoveUpRight} variant="transparent">
+        LinkedIn
+      </Button>
     </section>
   );
 };
