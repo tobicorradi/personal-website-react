@@ -6,5 +6,6 @@
 
 :root {
   --color-text: #494949;
-  --color-button: #6534ff;
+  --color-primary: #6534ff;
+  --color-secondary: #ff7e34;
 }

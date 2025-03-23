@@ -49,7 +49,7 @@ describe("<Text />", () => {
     render(
       <Text
         as="span"
-        variant="caption"
+        size="md"
         weight="medium"
         color="muted"
         align="right"

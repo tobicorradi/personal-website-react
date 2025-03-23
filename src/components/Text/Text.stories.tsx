@@ -10,9 +10,9 @@ const meta: Meta<typeof Text> = {
       control: "select",
       options: ["p", "span", "div", "h1", "h2", "h3", "h4", "h5", "h6"],
     },
-    variant: {
+    size: {
       control: "select",
-      options: ["title", "subtitle", "body", "caption"],
+      options: ["xs", "sm", "md", "lg", "xl"],
     },
     weight: {
       control: "select",
@@ -39,7 +39,7 @@ export const Default: Story = {
   args: {
     children: "This is a Text component",
     as: "p",
-    variant: "body",
+    size: "md",
     weight: "normal",
     color: "gray",
     align: "left",

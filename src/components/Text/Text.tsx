@@ -13,14 +13,14 @@ export type TextTag =
   | "h5"
   | "h6";
 
-export type TextVariant = "title" | "subtitle" | "body" | "caption";
+export type TextSize = "xs" | "sm" | "md" | "lg" | "xl";
 export type TextWeight = "normal" | "medium" | "bold";
 export type TextColor = "primary" | "gray" | "muted" | "white";
 export type TextAlign = "left" | "center" | "right";
 
 interface TextProps extends HTMLAttributes<HTMLElement> {
   as?: TextTag;
-  variant?: TextVariant;
+  size?: TextSize;
   weight?: TextWeight;
   color?: TextColor;
   align?: TextAlign;
@@ -30,7 +30,7 @@ interface TextProps extends HTMLAttributes<HTMLElement> {
 
 export const Text = ({
   as: Component = "p",
-  variant = "body",
+  size = "md",
   weight = "normal",
   color = "gray",
   align,
@@ -44,7 +44,7 @@ export const Text = ({
     <Component
       className={classNames(
         styles.text,
-        styles[variant],
+        styles[size],
         styles[`weight-${weight}`],
         styles[`color-${color}`],
         align && styles[`align-${align}`],

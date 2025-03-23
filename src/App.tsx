@@ -1,7 +1,9 @@
-import "./App.css";
+import { Hero } from "@/sections";
 
-function App() {
-  return <>Work in progress</>;
-}
-
-export default App;
+export const App = () => {
+  return (
+    <main>
+      <Hero />
+    </main>
+  );
+};

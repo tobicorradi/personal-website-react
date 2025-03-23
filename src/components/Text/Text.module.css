@@ -1,24 +1,32 @@
 /* All of these values are placeholder */
 /* while the design is being worked on */
 
-.title {
-  font-size: 2rem;
-  line-height: 1.2;
+.xs {
+  font-size: 12px;
 }
 
-.subtitle {
-  font-size: 1.25rem;
-  line-height: 1.4;
+.sm {
+  font-size: 18px;
 }
 
-.body {
-  font-size: 1rem;
-  line-height: 1.6;
+.md {
+  font-size: 22px;
 }
 
-.caption {
-  font-size: 0.875rem;
-  line-height: 1.4;
+.lg {
+  font-size: 32px;
+}
+
+.xl {
+  font-size: 48px;
+}
+
+.lg {
+  font-size: 54px;
+}
+
+.xl {
+  font-size: 64px;
 }
 
 .weight-normal {

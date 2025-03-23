@@ -1,0 +1,13 @@
+.chip {
+  padding: 6px 18px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.primary {
+  background-color: var(--color-primary);
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+}
