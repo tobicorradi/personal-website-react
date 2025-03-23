@@ -34,7 +34,7 @@ export const Button = ({
       <Text color={textColor} size="xs">
         {children}
       </Text>
-      {IconComponent && <IconComponent size="20" stroke={iconStroke} />}
+      {IconComponent && <IconComponent size="18" stroke={iconStroke} />}
     </button>
   );
 };

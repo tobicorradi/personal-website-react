@@ -1,3 +1,11 @@
-.chip {
-  margin-bottom: 300px;
+.section {
+  padding: 0 18px;
+}
+
+.heading {
+  margin: 8px 0 13px 0;
+}
+
+.copy {
+  margin-bottom: 15px;
 }
