@@ -1,9 +1,13 @@
 import { Hero } from "@/sections";
+import { Navbar } from "@components";
 
 export const App = () => {
   return (
-    <main>
-      <Hero />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 };
