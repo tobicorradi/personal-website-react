@@ -4,7 +4,7 @@
 }
 
 .heading {
-  margin: 8px 0 13px 0;
+  margin: 12px 0 13px 0;
 }
 
 .copy {
@@ -15,4 +15,16 @@
   gap: 10px;
   display: flex;
   align-items: center;
+}
+
+.numbers {
+  gap: 30px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.image {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
 }

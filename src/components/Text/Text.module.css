@@ -1,12 +1,17 @@
 /* All of these values are placeholder */
 /* while the design is being worked on */
 
+.xxs {
+  font-size: 12px;
+}
+
 .xs {
   font-size: 14px;
 }
 
 .sm {
   font-size: 18px;
+  line-height: 30px;
 }
 
 .md {

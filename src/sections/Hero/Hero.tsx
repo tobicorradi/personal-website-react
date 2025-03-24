@@ -1,6 +1,8 @@
 import { Button, Chip, Text } from "@components";
 import { MoveUpRight } from "lucide-react";
 
+import Image from "./assets/hero-image.jpg";
+
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
@@ -23,6 +25,27 @@ export const Hero = () => {
           LinkedIn
         </Button>
       </div>
+      <div className={styles.numbers}>
+        <div>
+          <Text weight="bold" size="sm">
+            100%
+          </Text>
+          <Text size="xs">remote</Text>
+        </div>
+        <div>
+          <Text weight="bold" size="sm">
+            +5
+          </Text>
+          <Text size="xs">years of exp.</Text>
+        </div>
+        <div>
+          <Text weight="bold" size="sm">
+            +20
+          </Text>
+          <Text size="xs">projects</Text>
+        </div>
+      </div>
+      <img className={styles.image} src={Image} alt="CHANGE" />
     </section>
   );
 };
