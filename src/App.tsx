@@ -1,4 +1,4 @@
-import { Hero } from "@/sections";
+import { Experience, Hero } from "@/sections";
 import { Navbar } from "@components";
 
 export const App = () => {
@@ -7,6 +7,7 @@ export const App = () => {
       <Navbar />
       <main>
         <Hero />
+        <Experience />
       </main>
     </>
   );

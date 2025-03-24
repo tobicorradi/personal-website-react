@@ -8,7 +8,9 @@ import styles from "./Hero.module.css";
 export const Hero = () => {
   return (
     <section className={styles.section}>
-      <Chip variant="secondary">Software Engineer at Rootstrap</Chip>
+      <Chip variant="secondary">
+        Software Engineer at The Farmer's Dog
+      </Chip>
       <Text className={styles.heading} size="lg" as="h1" weight="bold">
         Hi! I’m Toby.
       </Text>
